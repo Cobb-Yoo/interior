@@ -1,10 +1,9 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="app-var">
+    <v-app-bar color="primary" class="app-var" height="50">
+      <div class="app-var-div pa-0">
         <v-img
           alt="Vuetify Logo"
-          class="shrink mr-2"
           contain
           src="./assets/logo.png"
           transition="scale-transition"
@@ -36,8 +35,11 @@ export default {
 };
 </script>
 
-<style scoped>
-.app-var {
+<style>
+.app-var-div {
   margin: 0 auto;
+}
+.app-var {
+  height: 15px;
 }
 </style>
