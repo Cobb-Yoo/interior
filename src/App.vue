@@ -1,10 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar color="primary" class="app-var" height="50">
-      <div class="app-var-div pa-0">
+    <v-app-bar color="primary" height="50">
+      <div class="app-var-div">
         <v-img
-          alt="Vuetify Logo"
-          contain
           src="./assets/logo.png"
           transition="scale-transition"
           width="40"
